@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.h_nav{
+  display: flex;
+padding-right: 2vh;
+padding-top: 2vh;
+ justify-content: end;
+ text-decoration: none;
+ font-size: large;
+ 
+ 
+}
+
+.h_nav a{
+  color: rgb(254, 248, 248);
+  font-style: italic;
+}
+
+#my-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  border-radius: 50%;
+}
+
+body{
+  background-image: url(./images/wallls.png);
+  background-attachment: fixed;
+  background-position: center;
+}
+
+p{
+  color: white;
+}
+
+
+.my_info{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-top: 2vh;
+font-size: x-large;
+text-shadow: 2px 2px 10px red;
+}
+
+
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px soild yellow;
+  background-color: red;
+  margin-top: 40vh;
+  padding-top: 2vh;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+
+#other{
+  animation-name: colors;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+@keyframes colors{
+  0%{
+      color: rgb(54, 255, 54);
+  }
+
+  50%{
+      color: rgb(40, 40, 253);
+  }
+
+  80%{
+      color: rgb(61, 255, 61);
+  }
+
+  100%{
+      color: rgb(61, 61, 255);
+  }
+}
